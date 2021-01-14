@@ -1,6 +1,6 @@
 class Clock {
     constructor(x,y,width,height) {
-       
+       this.body = this.image
         this.image = loadImage("clock.png");
       }
       display(){
